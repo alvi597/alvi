@@ -1,0 +1,52 @@
+<html>
+    <head>
+    <style>
+        .main{
+            position: relative;
+            display: inline-block;
+        }
+        .main .child1{
+            background-color: black;
+            color: greenyellow;
+            font-size:25px;
+            cursor: pointer;
+            
+        }
+        .main .child2{
+            margin-top: 10px;
+            position: absolute;
+            display: none;
+            width: 200px;
+            background-color: azure;
+            box-shadow: 2px 2px 2px 2px black;
+          ;
+        }
+        .child2 a{
+         display: inline-block;
+            padding: 10px;
+            color: black;
+            
+        }
+        .main:hover .child2{
+            display: block;
+        }
+        
+        </style>
+    
+    </head>
+    <body>
+    <div class="main">
+        <button class="child1">Services</button>
+        <div class="child2">
+        <a href="https://google.com">Website development</a>
+        <a href="#">Digital Marketing</a>
+        <a href="#">Graphic Designing</a>
+        </div>
+        
+        
+        
+        
+        </div>
+    
+    </body>
+</html>
